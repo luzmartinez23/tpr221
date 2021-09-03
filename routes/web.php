@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route; 
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +18,7 @@ Route::get('/', function(){
     return "Bienvenido a la pagina principal";
 });
 Route::get('cursos',function(){
-    return "Bienvenido a la pagina cursos ";
+    return "Bienvenido a la pagina curso ";
 });
 Route::get('cursos/create', function () {
     return "En esta pagina podras crear un curso";
